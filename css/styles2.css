@@ -1,0 +1,67 @@
+.audio {
+    background-color: grey;
+    border: 2.5px solid grey;
+    border-style: dotted;
+    padding: 20px;
+    margin-top: 5px;    /* 上邊距 */
+    margin-right: 15px;  /* 右邊距 */
+    margin-bottom: 10px; /* 下邊距 */
+    margin-left: 10px;    /* 左邊距 */
+  }
+
+body {
+    position: relative;
+    height: 100vh;
+}
+.audio-container {
+    position: absolute;
+    width: 230px;
+}
+.audio-number {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+}
+.audio {
+    width: 100%;
+}
+
+body{
+    background-color: #f5f5f5;
+    color: grey;
+    font-family: Flux-Bold, Helvetica, sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+#back-button{
+   position: fixed;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: 10px;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 25px;
+}
+
+#back-button{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#back-button {
+    border: none;
+    color: #000;
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+  }
